@@ -1,0 +1,32 @@
+.signup_container{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    background-color: rgba(13, 160, 240, 0.92);
+    color:white;
+  
+}
+.signup_box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:30%;
+    border: 1px solid black;
+}
+.singup_inputs{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+.singup_inputs input{
+    width:80%;
+    height:2rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0.5rem 0.5rem 0.5rem;
+    outline: none;
+}

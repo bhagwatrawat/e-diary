@@ -1,3 +1,4 @@
+
 .home_container{
     height: 100vh;
     display:flex;
@@ -8,26 +9,4 @@
     color:white;
   
   }
-  .home_navbar{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-around;
-    width:100%;
-    padding: 0.5rem;
-    background-color: black;
-  }
-  .home_navbar_logo{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #fff;
-    cursor:pointer;
-  }
-  .home_navbar_nav{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-around;
-    width:30%;
-    list-style: none;
-  }
+  

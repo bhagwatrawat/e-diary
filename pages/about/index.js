@@ -1,11 +1,13 @@
 import React from 'react'
-import DiaryEntry from '../../components/diaryEntry'
 import Navbar from './../../components/navbar';
 
-export default function Diary() {
+function About() {
   return (
     <div>
-      <DiaryEntry/>
+        <Navbar/>
+        <div>This is the about page </div>
     </div>
   )
 }
+
+export default About
